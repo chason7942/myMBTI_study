@@ -7,6 +7,9 @@ const select = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
 const resultName = document.querySelector(".result_name");
 const imgDiv = document.querySelector("#resultImg");
 const resultDesc = document.querySelector('.result_desc');
+// 결과 화면 type 계산된 숫자
+let point = calcResult();
+
 // 시작버튼
 startBtn.addEventListener("click",function(){
     init();
@@ -16,15 +19,14 @@ function calcResult(){
     return result;
 }
 function setResult(){
-    // 결과 화면 type 계산된 숫자
-    let point = calcResult();
+    
     let resultImg = document.createElement("img");
     // infoList의 이름 가져옴.
     resultName.innerHTML = infoList[point].name;
     //url 가져옴
     let imgURL = 'img/image-' + point + '.png';
     resultImg.src = imgURL;
-    resultImg.alt = "";
+    resultImg.alt = point;
     imgDiv.appendChild(resultImg);
     // 설명 추가
     resultDesc.innerHTML = infoList[point].desc;

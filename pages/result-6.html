@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>십이지 동물로 알아보는 MBTI 성격테스트</title>
+	<link rel="stylesheet" href="../style/style.css">
+	<script src="https://t1.kakaocdn.net/kakao_js_sdk/2.1.0/kakao.min.js" integrity="sha384-dpu02ieKC6NUeKFoGMOKz6102CLEWi9+5RQjWSV0ikYSFFd8M3Wp2reIcquJOemx" crossorigin="anonymous"></script>
+	<script>
+		Kakao.init('de4da8cd96ca52ad15c9909ce9346f06');
+		Kakao.isInitialized();
+	</script>
+</head>
+<body>
+	<div class="wrap">
+		<main class="container">
+			<section id="result" class="wrap_result" style="display: block;">
+				<h2 class="tit">당신의 결과는?</h2>
+				<div class="result_name">어 오늘 머리 바꿨네 잘 어울린다,<br>센스가 뛰어난 &lt;말&gt;</div>
+				<div id="resultImg" class="result_img"><img src="../img/image-6.png" alt=""></div>
+				<div class="result_desc">
+					연애할 때, 센스가 넘쳐나는 당신!<br>말재주가 뛰어나며 처세술이 뛰어나, 상대방의 호감을 금방 얻는답니다.<br>낙천적이고 유연한 성격을 가지고 있으며, 구속받는 것을 싫어하는 스타일이에요.<br>소중한 사람들을 위해 희생할 줄도 알지만, 쾌략 지향적인 경우가 많아 사치와 허영에 물드는 경우가 다반수입니다.<br>한탕 주의에 빠져 쉽게 망가질 수 있기 때문에 이 점을 주의해야 된답니다!
+				</div>
+                <div class="wrap_btn">
+                    <a href="../index.html" class="btn_goHome">나도 참여하기</a>
+                    <button type="button" id="btnShare" class="btn_share" onclick="js:shareMessage()">공유하기</button>
+                </div>
+			</section>
+		</main>
+	</div>
+	<script src="../js/data.js"></script>
+	<script src="../js/main.js"></script>
+	<script src="../js/share.js"></script>
+</body>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>십이지 동물로 알아보는 MBTI 성격테스트</title>
+	<link rel="stylesheet" href="../style/style.css">
+	<script src="https://t1.kakaocdn.net/kakao_js_sdk/2.1.0/kakao.min.js" integrity="sha384-dpu02ieKC6NUeKFoGMOKz6102CLEWi9+5RQjWSV0ikYSFFd8M3Wp2reIcquJOemx" crossorigin="anonymous"></script>
+	<script>
+		Kakao.init('de4da8cd96ca52ad15c9909ce9346f06');
+		Kakao.isInitialized();
+	</script>
+</head>
+<body>
+	<div class="wrap">
+		<main class="container">
+			<section id="result" class="wrap_result" style="display: block;">
+				<h2 class="tit">당신의 결과는?</h2>
+				<div class="result_name">난 네가 좋아 너무 좋아<br>애교만땅 &lt;개&gt;</div>
+				<div id="resultImg" class="result_img"><img src="../img/image-10.png" alt=""></div>
+				<div class="result_desc">
+					애교쟁이 그 자체인 당신!<br>둥글둥글하게 처세를 잘 하고, 붙임성이 매우 좋아 사교성이 매우 뛰어난 편이랍니다.<br>또한 궁금한 것을 참지 못해 호기심이 많고, 강아지같이 상대방에게 찰싹 달라붙는 것을 좋아하는 스타일이에요.<br>성격이 매우 쾌활하나, 감정의 기복이 은근히 심해 상대방이 하는 말에 대해 크게 상처받는 편입니다.<br>또한 성격이 급한 경우가 많아, 차분하게 행동을 하지 못하는 편이기 때문에 이 점을 좀만 조심하면 좋을 것 같아요!
+				</div>
+                <div class="wrap_btn">
+                    <a href="../index.html" class="btn_goHome">나도 참여하기</a>
+                    <button type="button" id="btnShare" class="btn_share" onclick="js:shareMessage()">공유하기</button>
+                </div>
+			</section>
+		</main>
+	</div>
+	<script src="../js/data.js"></script>
+	<script src="../js/main.js"></script>
+	<script src="../js/share.js"></script>
+</body>
+</html>

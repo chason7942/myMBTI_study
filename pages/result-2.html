@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>십이지 동물로 알아보는 MBTI 성격테스트</title>
+	<link rel="stylesheet" href="../style/style.css">
+	<script src="https://t1.kakaocdn.net/kakao_js_sdk/2.1.0/kakao.min.js" integrity="sha384-dpu02ieKC6NUeKFoGMOKz6102CLEWi9+5RQjWSV0ikYSFFd8M3Wp2reIcquJOemx" crossorigin="anonymous"></script>
+	<script>
+		Kakao.init('de4da8cd96ca52ad15c9909ce9346f06');
+		Kakao.isInitialized();
+	</script>
+</head>
+<body>
+	<div class="wrap">
+		<main class="container">
+			<section id="result" class="wrap_result" style="display: block;">
+				<h2 class="tit">당신의 결과는?</h2>
+				<div class="result_name">야 사귀자!<br>사랑을 쟁취하는 &lt;호랑이&gt;</div>
+				<div id="resultImg" class="result_img"><img src="../img/image-2.png" alt=""></div>
+				<div class="result_desc">
+					한 번 좋아하는 사람이 있으면 내 사람으로 만드는 당신!<br>호랑이에 해당하는 당신은 썸부터 사랑까지 한 번에 직진하는 스타일이랍니다.<br>연애할 때 주로 이끄는 성향을 가지고 있고, 시원시원한 성격과 유쾌한 성격을 가지고 있어요.<br>대쪽같은 성격에다 실수를 용납하는 대인배지만 유혹에 약하고 허영때문에 들뜨는 성격이라 다른 이성의 접근에 주의해야 돼요.<br>또한 내가 한 말로 인해 상대방이 상처를 받을 수 있기 때문에, 항상 말 조심이 필요하답니다!
+				</div>
+				<div class="wrap_btn">
+                    <a href="../index.html" class="btn_goHome">나도 참여하기</a>
+                    <button type="button" id="btnShare" class="btn_share" onclick="js:shareMessage()">공유하기</button>
+                </div>	
+			</section>
+		</main>
+	</div>
+	<script src="../js/data.js"></script>
+	<script src="../js/main.js"></script>
+	<script src="../js/share.js"></script>
+</body>
+</html>

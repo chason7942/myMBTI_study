@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>십이지 동물로 알아보는 MBTI 성격테스트</title>
+	<link rel="stylesheet" href="../style/style.css">
+	<script src="https://t1.kakaocdn.net/kakao_js_sdk/2.1.0/kakao.min.js" integrity="sha384-dpu02ieKC6NUeKFoGMOKz6102CLEWi9+5RQjWSV0ikYSFFd8M3Wp2reIcquJOemx" crossorigin="anonymous"></script>
+	<script>
+		Kakao.init('de4da8cd96ca52ad15c9909ce9346f06');
+		Kakao.isInitialized();
+	</script>
+</head>
+<body>
+	<div class="wrap">
+		<main class="container">
+			<section id="result" class="wrap_result" style="display: block;">
+				<h2 class="tit">당신의 결과는?</h2>
+				<div class="result_name">난 너만 봐!<br>정직한 연애 스타일의 &lt;소&gt;</div>
+				<div id="resultImg" class="result_img"><img src="../img/image-1.png" alt=""></div>
+				<div class="result_desc">
+					연애 유형의 진국인 당신!<br>소에 해당하는 당신은 상대방만 바라보는 해바라기 연애 스타일이랍니다.<br>매사에 끈기가 있어 연애를 할 때 성실하고 진심을 다하는 성향을 가지고, 온화하며 따뜻한 마음을 가지고 있어요.<br>한 번 좋아하면 끝까지 좋아하는 의리파지만 자존심이 쌔 은근히 고집이 강하답니다.<br>또한 욱하는 성질이 있어 이런 부분들을 조심해야 하고, 질투심이 많아 사랑이 집착으로 바뀔 수 있어 주의해야 된답니다!
+				</div>
+				<div class="wrap_btn">
+                    <a href="../index.html" class="btn_goHome">나도 참여하기</a>
+                    <button type="button" id="btnShare" class="btn_share" onclick="js:shareMessage()">공유하기</button>
+                </div>	
+			</section>
+		</main>
+	</div>
+	<script src="../js/data.js"></script>
+	<script src="../js/main.js"></script>
+	<script src="../js/share.js"></script>
+</body>
+</html>

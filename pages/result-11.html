@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>십이지 동물로 알아보는 MBTI 성격테스트</title>
+	<link rel="stylesheet" href="../style/style.css">
+	<script src="https://t1.kakaocdn.net/kakao_js_sdk/2.1.0/kakao.min.js" integrity="sha384-dpu02ieKC6NUeKFoGMOKz6102CLEWi9+5RQjWSV0ikYSFFd8M3Wp2reIcquJOemx" crossorigin="anonymous"></script>
+	<script>
+		Kakao.init('de4da8cd96ca52ad15c9909ce9346f06');
+		Kakao.isInitialized();
+	</script>
+</head>
+<body>
+	<div class="wrap">
+		<main class="container">
+			<section id="result" class="wrap_result" style="display: block;">
+				<h2 class="tit">당신의 결과는?</h2>
+				<div class="result_name">산은 산이요 연애는 연애로다<br>느긋하고 온순한 &lt;돼지&gt;</div>
+				<div id="resultImg" class="result_img"><img src="../img/image-11.png" alt=""></div>
+				<div class="result_desc">
+					단아하고 고상한 품격을 가진 당신!<br>마음을 먹을 때 느긋하게 행동하고, 상대방에 대한 배려가 상당히 많아 온화한 성품을 가지고 있어요.<br>또한 솔직한 성격으로 신뢰를 받을 수 있는 타입이며, 어떠한 일을 하든 책임감이 강해 무사히 마무리한답니다.<br>현실적인 성향이 강해 실리를 잘 챙기나, 표현력이 다소 부족해 상대방이 사랑받는다는 감정을 못 느낄수도 있어요.<br>은근히 질투심이 강하고 고지식한 면이 강해, 누가 자기에게 잘못하면 지구 끝까지 복수 할 수 있을 정도이기 때문에 이 점을 조심해야 한답니다!
+				</div>
+                <div class="wrap_btn">
+                    <a href="../index.html" class="btn_goHome">나도 참여하기</a>
+                    <button type="button" id="btnShare" class="btn_share" onclick="js:shareMessage()">공유하기</button>
+                </div>
+			</section>
+		</main>
+	</div>
+	<script src="../js/data.js"></script>
+	<script src="../js/main.js"></script>
+	<script src="../js/share.js"></script>
+</body>
+</html>

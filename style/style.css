@@ -80,7 +80,10 @@ button:focus {outline:none}
 .wrap_result .result_img {margin:20px auto 0;width:40%;max-width:180px;max-width:18rem}
 .wrap_result .result_img img {width:100%}
 .wrap_result .result_desc {margin:20px 0 0;margin:2rem 0 0;font-size:14px;font-size:1.4rem;line-height:1.6;word-break:keep-all}
-.wrap_result .btn_share {display:block;margin:20px auto 0;margin:2rem auto 0;padding:12px 0;padding:1.2rem 0;width:50%;border-radius:0.8rem;font-size:1.4rem;background:var(--color04)}
+.wrap_result .wrap_btn {display:flex;align-items:center;justify-content:space-between;margin:20px 0 0;margin:2rem 0 0;}
+.wrap_result .btn_goHome,
+.wrap_result .btn_share {display:block;padding:12px 0;padding:1.2rem 0;width:49%;border-radius:0.8rem;text-align:center;font-size:1.4rem;background:var(--color04)}
+.wrap_result .btn_goHome:hover {text-decoration:none}
 
 /* animation */
 @keyframes fadeIn {
