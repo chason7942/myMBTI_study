@@ -4,7 +4,7 @@ const url = "https://chason7942.github.io/myMBTI_study/"
 const shareTit = "십이지 동물 연애유형 결과";
 const shareDesc = infoList[resultAlt].name;
 const shareImg = url + "img/image-" + resultAlt + ".png";
-const shareURL = url + "page/result-" + resultAlt + ".html";
+const shareURL = url + "pages/result-" + resultAlt + ".html";
 
 function shareMessage() {
     Kakao.Share.sendDefault({
